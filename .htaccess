@@ -1,10 +1,10 @@
 #Force non-www:
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^www\.yourwebdoctor\.com [NC]
-RewriteRule ^(.*)$ https://yourwebdoctor.com/$1 [L,R=301]
+#RewriteEngine on
+#RewriteCond %{HTTP_HOST} ^www\.yourwebdoctor\.com [NC]
+#RewriteRule ^(.*)$ https://yourwebdoctor.com/$1 [L,R=301]
 
 # This allows you to redirect index.html to a specific subfolder
-Redirect 301 https://yourwebdoctor.com/index.html https://yourwebdoctor.com/
+Redirect http://yourwebdoctor.com/index.html https://yourwebdoctor.com/
 
 # 1 Month for most static assets
 #<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
