@@ -4,6 +4,7 @@ RewriteCond %{HTTP_HOST} ^www\.yourwebdoctor\.com [NC]
 RewriteRule ^(.*)$ https://yourwebdoctor.com/$1 [L,R=301]
 
 # This allows you to redirect index.html to a specific subfolder
+RewriteEngine on
 Redirect /index.html https://yourwebdoctor.com/
 
 # 1 Month for most static assets
