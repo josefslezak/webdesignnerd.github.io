@@ -7,6 +7,15 @@ RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 
 
+RewriteCond %{HTTPS} off
+# First rewrite to HTTPS:
+# Don't put www. here. If it is already there it will be              included, if not
+# the subsequent rule will catch it.
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI}   [L,R=301]
+# Now, rewrite any request to the wrong domain to use   www.
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule .* https://www.%{HTTP_HOST}%.   {REQUEST_URI} [L,R=301]
+
 
 # 1 Month for most static assets
 #<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
