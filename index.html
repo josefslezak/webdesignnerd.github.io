@@ -15,9 +15,14 @@
 
 
 <script>
-var host = "yourwebdoctor.com/";
+/*var host = "yourwebdoctor.com/";
 if ((host == window.location.host) && (window.location.protocol != "https:"))
-    window.location.protocol = "https";
+    window.location.protocol = "https";*/
+
+if (window.location.host.indexOf('index.html')>-1){
+    window.location.replace("https://yourwebdoctor.com/");
+}
+
 </script>
 
 
