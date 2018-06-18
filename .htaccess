@@ -1,14 +1,10 @@
-RewriteEngine On
-
 # match any URL with www and rewrite it to https without the www
 RewriteCond %{HTTP_HOST} ^(www\.)(.*) [NC]
-RewriteRule (.*) https://%2%{REQUEST_URI} [L,R=301]
+RewriteRule (.*) https://%2%{REQUEST_URI} [R=301,L]
 
-# match urls that are non https (without the www)
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP_HOST} !^(www\.)(.*) [NC]
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
+# match non https and redirect to https
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 
 
 
@@ -17,4 +13,4 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 #Header set Cache-Control "max-age=2592000, public"
 #</filesMatch>
 
-ErrorDocument 404 /404.html
+#ErrorDocument 404 /404.html
