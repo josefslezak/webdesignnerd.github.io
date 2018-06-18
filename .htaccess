@@ -1,11 +1,12 @@
 #Force non-www:
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www\.yourwebdoctor\.com [NC]
-RewriteRule ^(.*)$ http://yourwebdoctor.com/$1 [L,R=301]
+RewriteRule ^(.*)$ https://yourwebdoctor.com/$1 [L,R=301]
 
 RewriteBase /
 # redirect html pages to the root domain
 RewriteRule ^index\.html$ / [NC,R,L]
+
 
 # 1 Month for most static assets
 #<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
