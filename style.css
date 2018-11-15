@@ -360,6 +360,12 @@ body {
 /* portfolio */
 
 .portfolio {
+   background-color:#f7f7f7;
+} 
+
+
+
+.portfolio .content {
    padding-top: 40px;
    padding-bottom: 140px;
    max-width: 1024px;
@@ -367,11 +373,10 @@ body {
    margin-right: auto;
    padding-left: 40px;
    padding-right: 40px;
-   background-color:#f7f7f7;
 }
 
 
-.portfolio h2 {
+.portfolio .content h2 {
     max-width: 780px;
     color: #222222;
     margin-left: auto;
@@ -385,24 +390,24 @@ body {
     padding-right: 15px;
 }
 
-.portfolio .item {
+.portfolio .content .item {
     float: left;
     width: 49%;		
     margin-bottom: 2%;
 }
 
-.portfolio .space {
+.portfolio .content .space {
     float: left;
     width: 2%;
     color: #ffffff;
 }
 
-.portfolio .item img:hover {
+.portfolio .content .item img:hover {
       outline: 2px solid #888888;
       outline-offset: -1px;
 }
 
-.portfolio .item img {
+.portfolio .content .item img {
     width: 100%;		
 }
 
