@@ -1,0 +1,684 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+p {
+    margin-bottom: 18px;
+}
+
+
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.65;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;    
+    color: #333333;
+    background-color: #ffffff;
+
+}
+
+
+
+
+
+/* navigation */
+
+.container-nav {
+    max-width: 1024px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #0D2E4D;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav .phone {
+  float:right;
+
+} 
+
+
+.topnav .phone:hover {
+  cursor: default;
+  color: #ffffff;
+} 
+
+
+.topnav a:hover {
+  color: #43AADD;
+  cursor: pointer;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+/* hero section */
+
+.hero {
+    /*background-image: url('/images/hero-bg-wp.png'); */
+    background-color: #0A1E36;
+    width: 100%;
+    height: auto;
+    padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero h1 {
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 40px;
+    line-height: 80px;
+}
+
+.hero p {
+    color: #c7dbfc;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 700px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.hero .testimonial {
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    background-color: #FF801C;
+    max-width: 650px;
+    padding: 20px 30px 25px 30px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.hero .testimonial .name {
+   text-align: right;
+   font-weight: bold;
+   margin-top: 10px;
+}
+
+.hero .contact-line {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.hero .contact-line .message {
+    color: #ffffff;
+    float: left;
+    font-style: italic;
+    padding-top: 12px;
+}
+
+.hero .contact-line .send-message {
+    float: right;
+    padding-top: 12px;
+}
+
+.hero .contact-line .send-message a {
+   color: #ffffff;
+   text-decoration: none;
+   font-weight: bold;
+   background-color: #FF801C;   
+   border-radius: 30px;
+   padding: 12px 20px 12px 20px;
+}
+
+
+.hero .contact-line .send-message:hover {
+}
+
+
+/* intro section */
+
+
+.intro-section {
+    padding-bottom: 80px;
+}
+
+.intro-section .content {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.intro-section .content .subsection1 {
+    width: 46%;
+    float: left;
+}
+
+.intro-section .content .space {
+    width: 8%;
+    float: left;
+    color: #ffffff;
+}
+
+.intro-section .content .subsection2 {
+    width: 46%;
+    float: left;
+}
+
+.intro-section .content .subsection2 img {
+    width: 100%;
+}
+
+.intro-section .content .subsection1 img {
+    width: 100%;
+}
+
+
+
+
+
+
+/* solution section */
+
+
+.solution-section {
+    background-color: #0A1E36;
+    color: #eeeeee;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.solution-section .content {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.solution-section .content h2 {
+    color: #eeeeee;
+}
+
+
+.solution-section .content .subsection1 {
+    width: 46%;
+    float: left;
+}
+
+.solution-section .content .subsection1 h2 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+
+
+
+.solution-section .content .space {
+    width: 8%;
+    float: left;
+    color: #0A1E36;
+}
+
+.solution-section .content .subsection2 {
+    width: 46%;
+    float: left;
+}
+
+.solution-section .content .subsection2 h2 {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom: 14px;
+}
+
+
+.solution-section .content .subsection2 img {
+    width: 100%;
+}
+
+.solution-section .content .subsection1 img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.wrapper img {
+    width: 100%;	
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 50px;	
+    line-height: 60px;
+ /*   color: #f44242; */
+    margin-bottom: 30px;			
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 26px;
+    line-height: 38px; 	
+    margin-bottom: 42px;		
+    margin-top: 42px;
+   /* color: #084f70; */
+    color: #333333;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 18px;		
+}
+
+
+
+.sub-header {
+    text-align: center;
+    font-size: 20px;	
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ul {
+    margin-left: 0px;
+    padding-left: 18px;
+    margin-top: 30px;
+}
+
+li {
+    margin-bottom: 14px;
+}
+
+
+
+
+/* About Section*/
+
+.about-section {
+    background-color: #ffffff;  	
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about-section .content {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.about-section .content .left {
+    width: 64%;
+    float:left;
+    margin-right: 4%;
+}
+
+.about-section .content .right {
+    width: 32%;
+    float:left;
+    margin-top: 10px;
+}
+
+.about-section .content .right img {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/* portfolio */
+
+.portfolio-section {
+    background-color: #f7f7f7; 
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.portfolio-section .content h2 {
+    padding-bottom: 20px;
+}
+
+.portfolio-section .content {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.portfolio-section .content .item {
+    float: left;
+    width: 49%;		
+    margin-bottom: 2%;
+}
+
+.portfolio-section .content .space {
+    float: left;
+    width: 2%;
+    color: #ffffff;
+}
+
+.portfolio-section .content .item img:hover {
+      outline: 2px solid #888888;
+      outline-offset: -1px;
+}
+
+.portfolio-section .content .item img {
+    width: 100%;		
+}
+
+
+
+
+/* Services Section */
+
+.services-section {
+    padding-top: 40px;
+    padding-bottom: 90px;
+    background-color: #0A1E36;
+    color: #cccccc;
+}
+
+.services-section .content span {
+    color: #ffffff;
+}
+
+.services-section .content {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.services-section .content h2 {
+    color: #ffffff;
+}
+
+
+
+/* Questions Section */
+
+
+.questions-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.questions-section .content {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.questions-section .content .question {
+ /*  background-color: #f1f1f1;  */
+   background-color: #ddeaff;
+   border-style: solid;
+   border-width: 1px;
+   padding: 30px 30px 30px 30px;
+   margin-bottom: 60px;
+}
+
+.questions-section .content .question h2 {
+   margin-top: 0px;
+   margin-bottom: 20px;
+   font-size: 20px;
+   line-height: 32px;
+}
+
+
+
+
+
+
+/* Testimonials Section */
+
+
+.testimonials-section {
+    background-color: #f7f7f7;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.testimonials-section .content {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.testimonials-section .content .item {
+    width: 25.5%;
+    float:left;	
+    background-color: #ffffff;
+    border-width: 1px;
+    border-color: #cccccc;	
+    border-style: solid;
+    font-style: italic;
+    padding: 20px;
+}
+
+.testimonials-section .content .item img {
+    width: 100%;
+}
+
+.testimonials-section .content .space {
+    width: 5.5%;
+    float: left;
+    color: #f7f7f7;
+} 
+
+
+
+
+
+
+
+
+
+/* Price Section */
+
+
+.price-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.price-section .content {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+
+/* contact section*/
+
+.contact-section {
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact-section .content {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+
+footer {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+footer p {
+    color: #414141;
+    text-align: center;
+}
+
+
+
+
+/* send message */
+
+.send-message-section {
+    width: 100%;
+    background-color: #0A1E36;   
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.send-message-section h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+
+
+.send-message-section .container82 {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0A1E36;   
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-size: 18px;
+}
+
+/* Style the submit button with a specific background color etc */
+
+.container82 input[type=submit] {
+    background-color: #EF9C00;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    border-width: 0px;
+}
+
+
+.container82 textarea {
+    font-size: 18px;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+.container82 input[type=submit]:hover {
+    background-color: #efb240;
+}
+
+/* Add a background color and some padding around the form */
+.container82 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container82 .button82 {
+    margin-top: 40px;
+    text-align:center;
+    border-radius: 7px;
+    box-shadow: none;
+
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+
+.portfolio .item {
+    width: 100%;		
+}
+
+.portfolio .space {
+   display: none;
+}
+
+.about-section .left {
+    width: 100%;
+    margin-right: 0%;
+}
+
+.about-section .right {
+    width: 100%;
+}
+
+
+
+}

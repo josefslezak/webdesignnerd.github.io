@@ -1,0 +1,1266 @@
+ul, li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h1, h2, h3, h4, p {
+    padding:0;
+    margin:0;
+}
+
+
+p {
+    margin-bottom: 14px;
+}
+
+a {
+    color: #f44242;
+}
+
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.65;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;    
+    color: #333333;
+    background-color: #ffffff;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* navigation */
+
+.container-nav {
+    max-width: 1024px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav .phone {
+  float:right;
+
+} 
+
+
+.topnav .phone:hover {
+  cursor: default;
+  color: #ffffff;
+} 
+
+
+.topnav a:hover {
+  color: #E5515D;
+  cursor: pointer;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+/* hero */
+
+.hero {
+  /*  background: linear-gradient(to right, #149BB0, #149BB0); */
+    background: linear-gradient(to right, #E5515D, #F27761);
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero h1 {
+    color: #ffffff;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 800;
+    line-height: 74px;
+    max-width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.hero p {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 800px;
+    line-height: 32px;
+    padding-bottom: 36px;
+}
+
+.hero .startButton {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.hero .startButton .button  {
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #F5B641;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+}
+
+.hero .startButton .button:hover  {
+    background-color: #ffce75;
+}
+
+
+
+/* Intro Section */
+
+.intro-section {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    color: #333333;
+}
+
+.intro-section .content {
+    max-width: 1024px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.intro-section .content h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 60px;
+} 
+
+
+.intro-section .content h3 {
+    text-align: left;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 24px;
+    margin-top: 36px;
+} 
+
+
+.intro-section .content p {
+   margin-bottom: 18px;
+   font-size: 18px;
+   line-height: 34px;
+}
+
+
+.intro-section .content img {
+    border-width: 3px;
+    border-color: #eeeeee;
+    border-style: solid;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.intro-section .content ul {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.intro-section .content ul li {
+    margin-bottom: 14px;
+}
+
+
+
+
+
+
+
+/* About Section */
+
+.about-section {
+    background: linear-gradient(to right, #E5515D, #F27761);
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    color: #ffffff;
+}
+
+.about-section .content {
+    max-width: 1024px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about-section .content h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 46px;
+    padding-bottom: 30px;
+} 
+
+
+.about-section .content .row1 {
+    margin-bottom: 18px;
+}
+
+
+.about-section .content .row1 .col1 {
+    float: left;
+    width: 20%;
+    margin-right: 4%;
+    padding-top: 0px;
+}
+
+.about-section .content .row1 .col1 .image {
+    width: 100%;
+}
+
+.about-section .content .row1 .col1 .image img {
+    width: 100%;
+}
+
+
+.about-section .content .row1 .col2 {
+    float: left;
+    width: 76%;
+}
+
+
+.about-section .content .row1 .col2 a {
+    color: #ffffff;
+}
+
+
+
+
+
+
+/* Offer Section */
+
+.offer-section {
+    background: linear-gradient(to right, #E5515D, #F27761);
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 120px;
+    color: #ffffff;
+}
+
+.offer-section .content {
+    max-width: 1024px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.offer-section .content h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 60px;
+} 
+
+
+.offer-section .content .item {
+    color: #222222;
+    background-color: #ffffff;
+    float: left;
+    width: 24%;
+    margin-right: 5%;   
+    margin-bottom: 40px;
+    padding: 30px 30px 30px 30px;
+}
+
+.offer-section .content .item h3 {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.offer-section .content .item-last h3 {
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.offer-section .content .item-last {
+    color: #222222;
+    background-color: #ffffff;
+    float: left;
+    width: 24%;
+    margin-bottom: 40px;
+    padding: 30px 30px 30px 30px;
+}
+
+
+
+/* about section */
+
+
+.about-section {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+.about-section .content {
+    max-width: 1024px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about-section .content .profile-image {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-section .content .profile-image img {
+    width: 100%;
+}
+
+.about-section .content h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 40px;
+} 
+
+
+
+
+
+
+/* portfolio */
+
+.portfolio {
+   padding-top: 40px;
+   padding-bottom: 20px;
+   max-width: 1024px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 40px;
+   padding-right: 40px;
+}
+
+
+.portfolio h2 {
+    max-width: 780px;
+    color: #222222;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    padding-bottom: 80px;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.portfolio .item {
+    float: left;
+    width: 49%;		
+    margin-bottom: 2%;
+}
+
+.portfolio .space {
+    float: left;
+    width: 2%;
+    color: #ffffff;
+}
+
+.portfolio .item img:hover {
+      outline: 2px solid #888888;
+      outline-offset: -1px;
+}
+
+.portfolio .item img {
+    width: 100%;		
+}
+
+
+
+
+/* questions section */
+
+
+.questions-section {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 120px;
+    background: linear-gradient(to right, #E5515D, #F27761);
+    color: #ffffff;
+}
+
+.questions-section .content {
+    max-width: 1024px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.questions-section .content h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 60px;
+} 
+
+
+
+
+
+
+/* testimonials section */
+
+
+.testimonials-section {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+.testimonials-section .content {
+    max-width: 1024px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.testimonials-section .content h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 60px;
+} 
+
+
+
+
+
+
+/* price section */
+
+
+.price-section {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 120px;
+    background: linear-gradient(to right, #E5515D, #F27761);
+    color: #ffffff;
+}
+
+.price-section .content {
+    max-width: 1024px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.price-section .content h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 60px;
+} 
+
+
+
+
+
+
+
+
+/* contact me section */
+
+
+.contact-me-section {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.contact-me-section .content {
+    max-width: 1024px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contact-me-section .content h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 60px;
+} 
+
+
+
+
+
+
+/* send message */
+
+.send-message-section {
+    width: 100%;
+    background: linear-gradient(to right, #E5515D, #F27761);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.send-message-section h2 {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+
+/*
+.send-message-section .container82 {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0A1E36;   
+}
+*/
+
+.send-message-section .left {
+    float: left;
+    width: 50%;
+}
+
+.send-message-section .right {
+    float: left;
+    width: 50%;
+}
+
+
+.send-message-section .left .container82 {
+}
+
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-size: 18px;
+}
+
+/* Style the submit button with a specific background color etc */
+
+.container82 input[type=submit] {
+    background-color: #EF9C00;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    border-width: 0px;
+}
+
+
+.container82 textarea {
+    font-size: 18px;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+.container82 input[type=submit]:hover {
+    background-color: #efb240;
+}
+
+/* Add a background color and some padding around the form */
+.container82 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container82 .button82 {
+    margin-top: 40px;
+    text-align:center;
+    border-radius: 7px;
+    box-shadow: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* testimonials page*/
+
+.testimonials-header {
+    background: linear-gradient(to right, #E5515D, #F27761);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.testimonials-header h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.testimonials-header p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 26px;
+    font-style: italic;
+}
+
+
+.testimonials-page {
+    width: 100%;
+}
+
+
+.testimonials-page .content {
+    max-width: 1024px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    color: #333333;
+}
+
+.testimonials-page .content h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px; 
+    line-height: 42px;
+    color: #444444;
+    margin-top: 140px;
+}
+
+.testimonials-page .content h3 {
+    margin-bottom: 28px;
+    color: #444444;
+}
+
+.testimonials-page .content  .horizontal-line {
+    border-bottom: 2px solid #e1e1e1;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+
+.testimonials-page .content .testimonial {
+    background-color: #efefef;
+    padding: 20px 20px 20px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#cfcfcf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonials {
+  
+}
+
+
+.testimonials {
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.testimonials  h2 {
+   text-align: center;
+   margin-top: 60px;
+   margin-bottom: 20px;
+   font-size: 30px;
+}
+
+.testimonials  p {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 14px;
+    margin-top: 0px;
+
+}
+
+.testimonials  a {
+    color: #ea6045;
+    text-decoration: underline;
+}
+
+.testimonials  a:hover {
+    color: #ed7a63;
+}
+
+
+.testimonials  h3 {
+   text-align: left;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.testimonials  .horizontal-line {
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+    padding-top:20px;
+}
+
+.testimonials .testimonial {
+   background-color: #d6ffd6;
+   border-radius: 10px;
+   padding: 10px 20px 10px 20px;
+   margin-top: 25px;
+   margin-bottom: 60px;
+}
+
+.testimonials .testimonial p{
+   font-style: italic;
+}
+
+
+.container .mainbar .horizontal-line {
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+   
+}
+
+
+.container .mainbar ul {
+    padding-left: 22px;
+}
+
+.container .mainbar ul li {
+    margin-bottom: 5px;
+}
+
+
+
+.articles {
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.articles h2 {
+   text-align: left;
+   margin-top: 30px;
+   margin-bottom: 10px;
+}
+
+.articles h2 a {
+   text-decoration: none;
+   color: #444444;
+}
+
+.articles h2 a:hover {
+   text-decoration: underline;
+}
+
+
+.articles .read-more {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    width: 140px;
+    background-color: #6dd66d;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+}
+
+.articles .read-more:hover {
+    background-color: #96f796;
+}
+
+.articles .read-more a { 
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+.articles .read-more a { 
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+
+
+.article {
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.article h1 {
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.article h2 {
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+.article p {
+   margin-bottom: 8px;
+ }
+
+.article ul {
+    margin-left: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.article ul li {
+    margin-bottom: 6px;
+}
+
+.article .image {
+   max-width: 600px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.article .image img {
+    width: 100%;
+}
+
+
+/* footer */
+
+footer {
+    font-size: 17px;
+    color: #333333;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333333;
+}
+
+footer a:hover {
+    text-decoration: underline;   
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+
+
+
+
+
+
+.container .sidebar {
+    width: 24%;
+    margin-right: 2%;
+    float: left;
+    margin-top: 45px;
+    display: inline;
+}
+
+.container .sidebar img {
+    width: 100%;   
+    border-color: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.container .sidebar .about-info {
+   margin-bottom: 30px;
+}
+
+.container .sidebar .section {
+    background-color: #43AADD;
+}
+
+.container .sidebar .title {
+    color: #ffffff;
+    background-color:#222222;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 4px;
+    padding-left: 15px;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+}
+
+
+.container .sidebar a {
+   color: #43AADD;
+   text-decoration: none;
+}
+
+
+.container a:hover {
+   color: #43AADD;
+   text-decoration: underline;
+
+}
+
+.container .sidebar span {
+   color: #43AADD;
+}
+
+.container .sidebar img {
+    margin-top: 5px;
+}
+
+
+.container .sidebar .links {
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+
+}
+
+.container .sidebar .links .item {
+   margin-bottom: 10px;
+}
+
+.container .sidebar .links .item a {
+   color: #222222;
+   text-decoration: none;
+
+}
+
+.container .sidebar .links .item a:hover {
+   color: #43AADD;
+   text-decoration: underline;
+
+}
+
+
+
+
+
+.container .sidebar .signup {
+    background-color: #43AADD;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.clear {
+    clear: both;
+}
+
+
+@media screen and (max-width: 900px) {
+
+
+    .topnav a:not(:first-child) {display: none;}
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+  
+    /* hero section */
+
+    .hero h1 {
+        font-size: 60px;
+        line-height: 65px;
+   }
+
+
+    /* portfolio section */
+
+
+    .portfolio {
+    }
+
+    .portfolio .item {
+        width: 94%;		
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 3%;
+    }
+
+    .portfolio .space {
+        width: 0%;
+    }
+
+    .portfolio {
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+
+    .portfolio h2 {
+        margin-top: 60px;
+    }
+
+
+
+    /* contact me section */
+
+    .contact-me-section {
+        padding-top: 20px;
+    }
+
+
+    /* about section */
+
+
+
+
+    .about-section .content .row1 .col1 {
+        width: 100%;
+        margin-right: 0%;
+    }
+
+    .about-section .content h2 {
+        margin-bottom: 20px;
+    }
+
+    .about-section .content .row1 .col1 .image {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 40px;
+    }
+
+    .about-section .content .row1 .col2 {
+        width: 100%;
+    }
+
+
+
+
+    /* testimonials page */
+
+    .testimonials-header h1 {
+        font-size: 40px;
+    }
+
+    .testimonials-header p {
+        font-size: 20px;
+    }
+
+    .testimonials-page .content h2 {
+        font-size: 36px;
+        margin-top: 60px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 680px) {
+
+
+    .container .frontpage .portfolio .item {
+        width: 100%;		
+    }
+
+
+    .container .frontpage .portfolio .space {
+        width: 0%;
+    }
+
+
+    .container .frontpage .hero h1 {
+        font-size: 48px;
+        line-height: 55px;
+    }
+
+
+    .container .frontpage {
+        margin-top: 2%;
+    }
+
+    .white-section video {
+        max-width: 550px;
+    }
+
+
+.grey-section .images .image1 {
+    max-width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.grey-section .images .image2 {
+    max-width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.grey-section .images .image3 {
+    max-width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .white-section video {
+        max-width: 500px;
+    }
+
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .white-section video {
+        max-width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .white-section video {
+        max-width: 350px;
+    }
+
+}

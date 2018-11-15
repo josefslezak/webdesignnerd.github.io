@@ -1,0 +1,25 @@
+<!--
+    <div class="about-section">
+        <div class="content">
+
+            <h2> I Want to Help You to Succeed in Your Business</h2>
+
+	    <div class="profile-image"><img src="img/profile-circle"></div>
+
+            <p>My name is Josef. I'm a freelance web designer from Asheville, North Carolina. I enjoy building great looking websites and I'd like to offer you my web design skills and experience. I'd like to build a website which helps you to succeed in your business and bring new clients from the internet.</p>
+
+            <p>Your website is the main part of your online marketing. However there are many other components which help you to make your business more visible on the internet.</p> 
+
+	    <p>Creating a Google Business account, your business Facebook page and adding your business to the local business directories are several of them.</p>
+
+	            
+            <p>Do you need a website for your business or do you need a help with your current one?</p> 
+
+            <p>Is your website not bringing you enough customers or do you have a question about web design? Feel free to <a href="#send-message">Send me a message!</a></p>
+
+
+
+        </div>
+    </div>
+-->
+
