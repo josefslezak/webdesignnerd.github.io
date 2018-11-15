@@ -429,17 +429,21 @@ body {
 }
 
 .contact-section .content {
-
     color: #333333;
     max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
     padding-right: 40px;
+}
+
+
+.contact-section .content  p {
     font-size: 18px;
     line-height: 32px;
     text-align: center;
 }
+
 
 .contact-section .content h2 {
     text-align: center;
