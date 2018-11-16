@@ -440,7 +440,7 @@ body {
 
 .contact-section .content  p {
     font-size: 21px;
-    line-height: 1.65px;
+    line-height: 1.65;
     text-align: center;
 }
 
