@@ -748,6 +748,10 @@ footer a:hover {
 
   
  
+.hero h1 {
+    font-size: 60px;
+}
+
 .hero .contact-line {
     max-width: 800px;
     margin-left: auto;
@@ -854,6 +858,11 @@ footer a:hover {
 
 
 @media screen and (max-width: 680px) {
+
+
+    .hero h1 {
+        font-size: 40px;
+    }
 
 
     .container .frontpage .portfolio .item {
