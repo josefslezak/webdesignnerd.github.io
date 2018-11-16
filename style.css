@@ -806,11 +806,16 @@ footer a:hover {
     }
 
     .portfolio .content .item {
-        width: 94%;		
+        width: 100%;		
         margin-left: 0%;
         margin-right: 0%;
         margin-bottom: 3%;
     }
+
+
+    .portfolio .content .item {
+        width: 100%;		
+
 
     .portfolio .content .space {
         width: 0%;
@@ -880,6 +885,8 @@ footer a:hover {
         width: 100%;		
     }
 
+    .portfolio .content .item {
+        width: 100%;		
 
     .container .frontpage .portfolio .space {
         width: 0%;
