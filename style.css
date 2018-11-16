@@ -800,8 +800,8 @@ footer a:hover {
 
     .portfolio .content .item {
         width: 94%;		
-        margin-left: 3%;
-        margin-right: 3%;
+        margin-left: 0%;
+        margin-right: 0%;
         margin-bottom: 3%;
     }
 
