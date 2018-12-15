@@ -1,0 +1,657 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+
+
+
+html {
+    font-family: 'Open Sans', sans-serif; color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navigation */
+
+.container-nav {
+    max-width: 1024px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #404040;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav .phone {
+  float:right;
+
+} 
+
+
+.topnav .phone:hover {
+  cursor: default;
+  color: #ffffff;
+} 
+
+
+.topnav a:hover {
+  color: #43AADD;
+  cursor: pointer;
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+.header{
+    background-color: #32C981;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.header h2 {
+    color: #ffffff;
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    line-height: 90px; 
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+.hero {
+    background-color: #a7f9c9;
+    padding-top: 80px;
+    padding-bottom: 110px;
+}
+
+.hero h1 {
+    color: #ffffff;
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 80px;
+    line-height: 90px; 
+    font-weight: 700;
+}
+
+.hero a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* first impression counts */
+
+.section1 {
+    padding-top: 80px;
+}
+
+
+.section1 .content {
+
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+}
+
+.section1 .content h2 {
+    color: #333333;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.section1 .content p {
+    font-size: 22px;
+    line-height: 34px;
+    padding-bottom: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 7 reasons */
+
+.section2 {
+    padding-top: 80px;
+    background-color: #ffffff;
+}
+
+
+.section2 .content {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+}
+
+.section2 .content h2 {
+    color: #333333;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.section2 .content ul {
+    font-size: 22px;
+    line-height: 34px;
+}
+
+.section2 .content ul li {
+   margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* My Services */
+
+.section3 {
+    padding-top: 80px;
+    background-color: #32C981;
+    color: #ffffff;
+    padding-bottom: 90px;
+}
+
+
+.section3 .content {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+}
+
+.section3 .content h2 {
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.section3 .content .tab {
+    float: left;
+    width: 30%;
+    background-color: #ffffff;
+    color: #333333;
+    padding-top: 50px;
+}
+
+.section3 .content .tab h2 {
+    font-size: 30px;
+    line-height: 35px;
+    padding-bottom: 40px;
+}
+
+.section3 .content .tab .content {
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+
+}
+
+.section3 .content .space {
+    float: left;
+    width: 5%;
+    color: #32C981;
+}
+
+
+.clear-div {
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+/* How Can I Help you? */
+
+.section4 {
+    padding-top: 80px;
+}
+
+
+.section4 .content {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+
+.section4 .content h2 {
+    color: #333333;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+.section4 .content p {
+    font-size: 22px;
+    line-height: 34px;
+    padding-bottom: 14px;
+    text-align: center;
+}
+
+
+.section4 .content .photo {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.section4 .content .photo img {
+    width: 100%;
+} 
+
+
+
+
+
+
+
+
+/* Brief Info */
+
+.section5 {
+    padding-top: 20px;
+}
+
+
+.section5 .content {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+    background-color: #efefef;
+}
+
+.section5 .content .photo {
+    float: left;
+    width: 20%;	
+} 
+
+.section5 .content .photo img {
+    width: 100%;
+}
+
+.section5 .content .text {
+    float: left;
+    width: 75%;	
+    font-size: 22px;
+    margin-left: 5%;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+/* How Can I Help You? */
+
+.section6 {
+    padding-top: 80px;
+}
+
+
+.section6 .content {
+
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+}
+
+.section6 .content h2 {
+    color: #333333;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.section6 .content p {
+    font-size: 22px;
+    line-height: 34px;
+    padding-bottom: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* recent work */
+
+.recent-projects {
+    padding-top: 80px;
+    background-color: #f8f8f8;
+}
+
+.recent-projects .content h2 { 
+    color: #333333;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.recent-projects .content .info {
+    color: #555555;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.recent-projects .content {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 80px;
+}
+
+.recent-projects .content .item {
+    float: left;
+    width: 49%;
+    padding-bottom: 2%;
+}
+
+
+.recent-projects .content .item img {
+    width: 100%
+}
+
+.recent-projects .content .space {
+    float: left;
+    width: 2%;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Testimonials */ 
+
+.testimonials {
+    max-width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.testimonials  h2 {
+   text-align: center;
+   margin-top: 60px;
+   margin-bottom: 20px;
+   font-size: 30px;
+}
+
+.testimonials  p {
+    font-size: 22px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 34 px;
+    margin-bottom: 14px;
+    margin-top: 0px;
+
+}
+
+.testimonials  a {
+    color: #ea6045;
+    text-decoration: underline;
+}
+
+.testimonials  a:hover {
+    color: #ed7a63;
+}
+
+
+.testimonials  h3 {
+   text-align: left;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.testimonials  .horizontal-line {
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+    padding-top:20px;
+}
+
+.testimonials .testimonial {
+   background-color: #d6ffd6;
+   border-radius: 10px;
+   padding: 10px 20px 10px 20px;
+   margin-top: 25px;
+   margin-bottom: 60px;
+}
+
+.testimonials .testimonial p{
+   font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* send message */
+
+.send-message-section {
+    width: 100%;
+    background-color: #32C981;   
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.send-message-section h2 {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+
+
+.send-message-section .container82 {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #32C981;   
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 10px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-size: 18px;
+}
+
+/* Style the submit button with a specific background color etc */
+
+.container82 input[type=submit] {
+    background-color: #EF9C00;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    border-width: 0px;
+}
+
+
+.container82 textarea {
+    font-size: 18px;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+.container82 input[type=submit]:hover {
+    background-color: #efb240;
+}
+
+/* Add a background color and some padding around the form */
+.container82 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container82 .button82 {
+    margin-top: 40px;
+    text-align:center;
+    border-radius: 7px;
+    box-shadow: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
