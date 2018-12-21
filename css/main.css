@@ -739,25 +739,25 @@ label > input[type="radio"] {
  * ## style placeholder text
  * ------------------------------------------------------------------- */
 ::-webkit-input-placeholder {
-    color: #828282;
+    color: #f2f2f2;
 }
 
 :-moz-placeholder {
-    color: #828282;
+    color: #f2f2f2;
     /* Firefox 18- */
 }
 
 ::-moz-placeholder {
-    color: #828282;
+    color: #f2f2f2;
     /* Firefox 19+ */
 }
 
 :-ms-input-placeholder {
-    color: #828282;
+    color: #f2f2f2;
 }
 
 .placeholder {
-    color: #828282 !important;
+    color: #f2f2f2 !important;
 }
 
 
@@ -1461,7 +1461,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 0;
     outline: 0;
     border: none;
-    width: 80px;
+    width: 140px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -3056,31 +3056,31 @@ html.no-csstransitions .home-content__main {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-    color: #4f4f4f;
+    color: #efefef;
 }
 
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 18- */
+    color: #efefef;    /* Firefox 18- */
 }
 
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 19+ */
+    color: #efefef;    /* Firefox 19+ */
 }
 
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
-    color: #4f4f4f;
+    color: #efefef;
 }
 
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-    color: #4f4f4f !important;
+    color: #efefef !important;
 }
 .contact-primary, .contact-secondary {
     float: left;
@@ -3381,10 +3381,10 @@ footer .row {
     padding: 0;
     outline: 0;
     border: none;
-    width: 85px;
-    height: 28px;
-    background: url("../images/logo-footer.png") no-repeat center;
-    background-size: 85px 28px;
+    width: 200px;
+    height: 18px;
+    background: url("../images/web-design-nerd-logo-green.png") no-repeat center;
+    background-size: 200px 18px;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
@@ -3418,25 +3418,25 @@ footer .row {
 }
 
 .footer-subscribe #mc-form input[type="email"]::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-subscribe #mc-form input[type="email"]:-moz-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.5);
     /* Firefox 18- */
 }
 
 .footer-subscribe #mc-form input[type="email"]::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.5);
     /* Firefox 19+ */
 }
 
 .footer-subscribe #mc-form input[type="email"]:-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .footer-subscribe #mc-form input[type="email"].placeholder {
-    color: rgba(255, 255, 255, 0.2) !important;
+    color: rgba(255, 255, 255, 0.9) !important;
 }
 
 .footer-subscribe #mc-form input[type=submit] {

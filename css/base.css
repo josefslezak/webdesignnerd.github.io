@@ -524,6 +524,19 @@ textarea {
 }
 
 
+.col-full .profile-picture {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.col-full .profile-picture img {
+    width: 100%;
+}
+
+
+
 /* ------------------------------------------------------------------- 
  * ## medium size devices
  * ------------------------------------------------------------------- */
